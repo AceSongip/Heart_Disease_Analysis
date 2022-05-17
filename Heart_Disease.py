@@ -51,7 +51,7 @@ y = np.expand_dims(clean_data["output"], axis=-1)
 cor = df.corr() # correllate each columns
 
 # Plot a figure
-plt.figure(figsize=(12,10))
+plt.figure(figsize=(10,15))
 sns.heatmap(cor, annot=True, cmap=plt.cm.Reds)
 plt.show()
 
