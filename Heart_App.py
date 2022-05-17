@@ -92,7 +92,7 @@ with st.form('Heart Disease Prediction Form'):
         if np.argmax(new_pred_2) == 1:
             st.success(f"You have {heart_disease[np.argmax(new_pred_2)]}")
         else:
-            st.warning(f"You have {heart_disease[np.argmax(new_pred)]}")
+            st.warning(f"You have {heart_disease[np.argmax(new_pred_2)]}")
     
 
 
